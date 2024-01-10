@@ -1,0 +1,55 @@
+/* Universal selectors overrides all css or css reset */
+/* Css specificity
+1. Inline styles
+2. Id selectors
+3. class selectors
+4. element selectors
+
+Inheritance - styles inherited from parent elemnt to child elements
+body is parent to other elements
+
+
+
+*/
+/* * {
+    border:1px solid red
+} */
+
+/* Element selectors */
+html {
+    font-size: 22px;
+}
+
+body {
+
+}
+
+main {
+    font-family: monospace;
+}
+/* Form elemnts don't inherit styles from body unless you do it like this  */
+button, input, textarea, select {
+    font: inherit;
+}
+h1, h2 {
+    color: blue
+}
+
+p {
+    color: purple;
+}
+
+.highlight {
+    text-transform:uppercase;
+    background-color: gold;
+}
+/* Class selectors */
+
+.teddy {
+    color: gray;
+}
+/* ID selectors */
+
+#second {
+    font-style: italic;
+}
